@@ -15,7 +15,7 @@ document.getElementById("loginForm").addEventListener("submit", function (event)
         // Verificar la contraseña
         if (usuarioExistente.password === password) {
             // Contraseña correcta, redirigir a RRHH.html
-            window.location.href = "../pages/RRHH.html"
+            window.location.href = "/SYSRRHHV2/pages/RRHH.html";
         } else {
             // Contraseña incorrecta
             alert("Contraseña incorrecta. Por favor, inténtalo de nuevo.");
