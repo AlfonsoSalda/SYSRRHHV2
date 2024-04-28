@@ -1,0 +1,31 @@
+<!--cadm.html-->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../assets/CSS/cadm.css">
+  <title>Crear Nuevo Administrador</title>
+</head>
+<body>
+  <div class="crear-admin-container">
+    <h1>Crear Nuevo Administrador</h1>
+    <form id="crearAdminForm">
+      <label for="workerId">ID del Trabajador:</label>
+      <input type="text" id="workerId" name="workerId" required>
+
+      <label for="newPassword">Nueva Contraseña:</label>
+      <input type="password" id="newPassword" name="newPassword" required>
+
+      <label for="confirmPassword">Verificar Contraseña:</label>
+      <input type="password" id="confirmPassword" name="confirmPassword" required>
+
+      <label for="adminPassword">Contraseña del Administrador Supremo:</label>
+      <input type="password" id="adminPassword" name="adminPassword" required>
+
+      <button type="button" onclick="verificarYCrearAdmin()">Crear Administrador</button>
+    </form>
+  </div>
+  <script src="../SCRIPTS/cadm.js"></script>
+</body>
+</html>

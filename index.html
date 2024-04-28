@@ -1,0 +1,27 @@
+<!--index.html-->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/CSS/styles.css">
+  <title>Iniciar Sesión</title>
+</head>
+<body>
+  <div class="login-container">
+    <h1>Iniciar Sesión</h1>
+    <form id="loginForm" method="post" action="/login">
+      <label for="userId">ID:</label>
+      <input type="text" id="userId" name="username" required>
+
+      <label for="password">Contraseña:</label>
+      <input type="password" id="password" name="password" required>
+
+      <button type="submit">Iniciar Sesión</button>
+    </form>
+    
+    <p>¿Nuevo administrador? <a href="pages/cadm.html">Crear nuevo administrador</a></p>
+  </div>
+  <script src="SCRIPTS/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../assets/CSS/evdes.css">
+  <title>Evaluación del Desempeño</title>
+</head>
+<body>
+  <div class="container">
+    <h1>Evaluación del Desempeño</h1>
+    <p>Evalue al empleado según lo planteado y tomando en cuenta que 1 es la peor calificación, y 10 la mejor.</p>
+
+    <form id="evaluacionForm">
+      <label for="puntualidad">Puntualidad: ¿Con qué frecuencia el empleado llega puntualmente al trabajo o cumple con los plazos establecidos?</label>
+      <div id="puntualidad" class="calificacion">
+        <input type="radio" id="puntualidad0" name="puntualidad" value="0" required>
+        <label for="puntualidad0">0</label>
+        <input type="radio" id="puntualidad1" name="puntualidad" value="1">
+        <label for="puntualidad1">1</label>
+        <input type="radio" id="puntualidad2" name="puntualidad" value="2">
+        <label for="puntualidad2">2</label>
+        <input type="radio" id="puntualidad3" name="puntualidad" value="3">
+        <label for="puntualidad3">3</label>
+        <input type="radio" id="puntualidad4" name="puntualidad" value="4">
+        <label for="puntualidad4">4</label>
+        <input type="radio" id="puntualidad5" name="puntualidad" value="5">
+        <label for="puntualidad5">5</label>
+        <input type="radio" id="puntualidad6" name="puntualidad" value="6">
+        <label for="puntualidad6">6</label>
+        <input type="radio" id="puntualidad7" name="puntualidad" value="7">
+        <label for="puntualidad7">7</label>
+        <input type="radio" id="puntualidad8" name="puntualidad" value="8">
+        <label for="puntualidad8">8</label>
+        <input type="radio" id="puntualidad9" name="puntualidad" value="9">
+        <label for="puntualidad9">9</label>
+        <input type="radio" id="puntualidad10" name="puntualidad" value="10">
+        <label for="puntualidad10">10</label>
+      </div>
+
+      <label for="actitud">Actitud: ¿Cómo describirías la actitud general del empleado hacia sus tareas y colegas?</label>
+      <div id="actitud" class="calificacion">
+        <input type="radio" id="actitud0" name="actitud" value="0" required>
+        <label for="actitud0">0</label>
+        <input type="radio" id="actitud1" name="actitud" value="1">
+        <label for="actitud1">1</label>
+        <input type="radio" id="actitud2" name="actitud" value="2">
+        <label for="actitud2">2</label>
+        <input type="radio" id="actitud3" name="actitud" value="3">
+        <label for="actitud3">3</label>
+        <input type="radio" id="actitud4" name="actitud" value="4">
+        <label for="actitud4">4</label>
+        <input type="radio" id="actitud5" name="actitud" value="5">
+        <label for="actitud5">5</label>
+        <input type="radio" id="actitud6" name="actitud" value="6">
+        <label for="actitud6">6</label>
+        <input type="radio" id="actitud7" name="actitud" value="7">
+        <label for="actitud7">7</label>
+        <input type="radio" id="actitud8" name="actitud" value="8">
+        <label for="actitud8">8</label>
+        <input type="radio" id="actitud9" name="actitud" value="9">
+        <label for="actitud9">9</label>
+        <input type="radio" id="actitud10" name="actitud" value="10">
+        <label for="actitud10">10</label>
+      </div>
+      
+
+      <label for="cumplimiento">Cumplimiento de tareas: ¿En qué medida el empleado cumple con las responsabilidades y tareas asignadas?</label>
+      <div id="cumplimiento" class="calificacion">
+        <input type="radio" id="cumplimiento0" name="cumplimiento" value="0" required>
+        <label for="cumplimiento0">0</label>
+        <input type="radio" id="cumplimiento1" name="cumplimiento" value="1">
+        <label for="cumplimiento1">1</label>
+        <input type="radio" id="cumplimiento2" name="cumplimiento" value="2">
+        <label for="cumplimiento2">2</label>
+        <input type="radio" id="cumplimiento3" name="cumplimiento" value="3">
+        <label for="cumplimiento3">3</label>
+        <input type="radio" id="cumplimiento4" name="cumplimiento" value="4">
+        <label for="cumplimiento4">4</label>
+        <input type="radio" id="cumplimiento5" name="cumplimiento" value="5">
+        <label for="cumplimiento5">5</label>
+        <input type="radio" id="cumplimiento6" name="cumplimiento" value="6">
+        <label for="cumplimiento6">6</label>
+        <input type="radio" id="cumplimiento7" name="cumplimiento" value="7">
+        <label for="cumplimiento7">7</label>
+        <input type="radio" id="cumplimiento8" name="cumplimiento" value="8">
+        <label for="cumplimiento8">8</label>
+        <input type="radio" id="cumplimiento9" name="cumplimiento" value="9">
+        <label for="cumplimiento9">9</label>
+        <input type="radio" id="cumplimiento10" name="cumplimiento" value="10">
+        <label for="cumplimiento10">10</label>
+      </div>      
+
+      <label for="trabajo">Trabajo en equipo: ¿Cómo calificarías la colaboración y el trabajo en equipo del empleado?</label>
+      <div id="trabajo" class="calificacion">
+        <input type="radio" id="trabajo0" name="trabajo" value="0" required>
+        <label for="trabajo0">0</label>
+        <input type="radio" id="trabajo1" name="trabajo" value="1">
+        <label for="trabajo1">1</label>
+        <input type="radio" id="trabajo2" name="trabajo" value="2">
+        <label for="trabajo2">2</label>
+        <input type="radio" id="trabajo3" name="trabajo" value="3">
+        <label for="trabajo3">3</label>
+        <input type="radio" id="trabajo4" name="trabajo" value="4">
+        <label for="trabajo4">4</label>
+        <input type="radio" id="trabajo5" name="trabajo" value="5">
+        <label for="trabajo5">5</label>
+        <input type="radio" id="trabajo6" name="trabajo" value="6">
+        <label for="trabajo6">6</label>
+        <input type="radio" id="trabajo7" name="trabajo" value="7">
+        <label for="trabajo7">7</label>
+        <input type="radio" id="trabajo8" name="trabajo" value="8">
+        <label for="trabajo8">8</label>
+        <input type="radio" id="trabajo9" name="trabajo" value="9">
+        <label for="trabajo9">9</label>
+        <input type="radio" id="trabajo10" name="trabajo" value="10">
+        <label for="trabajo10">10</label>
+      </div>
+      
+
+      <label for="iniciativa">Iniciativa: ¿Con qué frecuencia el empleado toma la iniciativa para abordar problemas o mejorar procesos?</label>
+      <div id="iniciativa" class="calificacion">
+        <input type="radio" id="iniciativa0" name="iniciativa" value="0" required>
+        <label for="iniciativa0">0</label>
+        <input type="radio" id="iniciativa1" name="iniciativa" value="1">
+        <label for="iniciativa1">1</label>
+        <input type="radio" id="iniciativa2" name="iniciativa" value="2">
+        <label for="iniciativa2">2</label>
+        <input type="radio" id="iniciativa3" name="iniciativa" value="3">
+        <label for="iniciativa3">3</label>
+        <input type="radio" id="iniciativa4" name="iniciativa" value="4">
+        <label for="iniciativa4">4</label>
+        <input type="radio" id="iniciativa5" name="iniciativa" value="5">
+        <label for="iniciativa5">5</label>
+        <input type="radio" id="iniciativa6" name="iniciativa" value="6">
+        <label for="iniciativa6">6</label>
+        <input type="radio" id="iniciativa7" name="iniciativa" value="7">
+        <label for="iniciativa7">7</label>
+        <input type="radio" id="iniciativa8" name="iniciativa" value="8">
+        <label for="iniciativa8">8</label>
+        <input type="radio" id="iniciativa9" name="iniciativa" value="9">
+        <label for="iniciativa9">9</label>
+        <input type="radio" id="iniciativa10" name="iniciativa" value="10">
+        <label for="iniciativa10">10</label>
+      </div>
+      
+
+      <label for="adaptabilidad">Adaptabilidad: ¿Con qué facilidad el empleado se adapta a cambios en las circunstancias laborales o en las tareas asignadas?</label>
+      <div id="adaptabilidad" class="calificacion">
+        <input type="radio" id="adaptabilidad0" name="adaptabilidad" value="0" required>
+        <label for="adaptabilidad0">0</label>
+        <input type="radio" id="adaptabilidad1" name="adaptabilidad" value="1">
+        <label for="adaptabilidad1">1</label>
+        <input type="radio" id="adaptabilidad2" name="adaptabilidad" value="2">
+        <label for="adaptabilidad2">2</label>
+        <input type="radio" id="adaptabilidad3" name="adaptabilidad" value="3">
+        <label for="adaptabilidad3">3</label>
+        <input type="radio" id="adaptabilidad4" name="adaptabilidad" value="4">
+        <label for="adaptabilidad4">4</label>
+        <input type="radio" id="adaptabilidad5" name="adaptabilidad" value="5">
+        <label for="adaptabilidad5">5</label>
+        <input type="radio" id="adaptabilidad6" name="adaptabilidad" value="6">
+        <label for="adaptabilidad6">6</label>
+        <input type="radio" id="adaptabilidad7" name="adaptabilidad" value="7">
+        <label for="adaptabilidad7">7</label>
+        <input type="radio" id="adaptabilidad8" name="adaptabilidad" value="8">
+        <label for="adaptabilidad8">8</label>
+        <input type="radio" id="adaptabilidad9" name="adaptabilidad" value="9">
+        <label for="adaptabilidad9">9</label>
+        <input type="radio" id="adaptabilidad10" name="adaptabilidad" value="10">
+        <label for="adaptabilidad10">10</label>
+      </div>
+      
+
+      <label for="comunicacion">Comunicación: ¿Cómo evaluarías las habilidades de comunicación del empleado, tanto verbal como escrita?</label>
+      <div id="comunicacion" class="calificacion">
+        <input type="radio" id="comunicacion0" name="comunicacion" value="0" required>
+        <label for="comunicacion0">0</label>
+        <input type="radio" id="comunicacion1" name="comunicacion" value="1">
+        <label for="comunicacion1">1</label>
+        <input type="radio" id="comunicacion2" name="comunicacion" value="2">
+        <label for="comunicacion2">2</label>
+        <input type="radio" id="comunicacion3" name="comunicacion" value="3">
+        <label for="comunicacion3">3</label>
+        <input type="radio" id="comunicacion4" name="comunicacion" value="4">
+        <label for="comunicacion4">4</label>
+        <input type="radio" id="comunicacion5" name="comunicacion" value="5">
+        <label for="comunicacion5">5</label>
+        <input type="radio" id="comunicacion6" name="comunicacion" value="6">
+        <label for="comunicacion6">6</label>
+        <input type="radio" id="comunicacion7" name="comunicacion" value="7">
+        <label for="comunicacion7">7</label>
+        <input type="radio" id="comunicacion8" name="comunicacion" value="8">
+        <label for="comunicacion8">8</label>
+        <input type="radio" id="comunicacion9" name="comunicacion" value="9">
+        <label for="comunicacion9">9</label>
+        <input type="radio" id="comunicacion10" name="comunicacion" value="10">
+        <label for="comunicacion10">10</label>
+      </div>
+      
+
+      <label for="productividad">Productividad: En una escala del 1 al 10, ¿cómo calificarías la productividad general del empleado?</label>
+      <div id="productividad" class="calificacion">
+        <input type="radio" id="productividad0" name="productividad" value="0" required>
+        <label for="productividad0">0</label>
+        <input type="radio" id="productividad1" name="productividad" value="1">
+        <label for="productividad1">1</label>
+        <input type="radio" id="productividad2" name="productividad" value="2">
+        <label for="productividad2">2</label>
+        <input type="radio" id="productividad3" name="productividad" value="3">
+        <label for="productividad3">3</label>
+        <input type="radio" id="productividad4" name="productividad" value="4">
+        <label for="productividad4">4</label>
+        <input type="radio" id="productividad5" name="productividad" value="5">
+        <label for="productividad5">5</label>
+        <input type="radio" id="productividad6" name="productividad" value="6">
+        <label for="productividad6">6</label>
+        <input type="radio" id="productividad7" name="productividad" value="7">
+        <label for="productividad7">7</label>
+        <input type="radio" id="productividad8" name="productividad" value="8">
+        <label for="productividad8">8</label>
+        <input type="radio" id="productividad9" name="productividad" value="9">
+        <label for="productividad9">9</label>
+        <input type="radio" id="productividad10" name="productividad" value="10">
+        <label for="productividad10">10</label>
+      </div>
+      
+
+      <label for="calidad">Calidad del trabajo: ¿En qué medida el trabajo del empleado cumple con los estándares de calidad establecidos?</label>
+      <div id="calidad" class="calificacion">
+        <input type="radio" id="calidad0" name="calidad" value="0" required>
+        <label for="calidad0">0</label>
+        <input type="radio" id="calidad1" name="calidad" value="1">
+        <label for="calidad1">1</label>
+        <input type="radio" id="calidad2" name="calidad" value="2">
+        <label for="calidad2">2</label>
+        <input type="radio" id="calidad3" name="calidad" value="3">
+        <label for="calidad3">3</label>
+        <input type="radio" id="calidad4" name="calidad" value="4">
+        <label for="calidad4">4</label>
+        <input type="radio" id="calidad5" name="calidad" value="5">
+        <label for="calidad5">5</label>
+        <input type="radio" id="calidad6" name="calidad" value="6">
+        <label for="calidad6">6</label>
+        <input type="radio" id="calidad7" name="calidad" value="7">
+        <label for="calidad7">7</label>
+        <input type="radio" id="calidad8" name="calidad" value="8">
+        <label for="calidad8">8</label>
+        <input type="radio" id="calidad9" name="calidad" value="9">
+        <label for="calidad9">9</label>
+        <input type="radio" id="calidad10" name="calidad" value="10">
+        <label for="calidad10">10</label>
+      </div>
+      
+
+      <label for="relaciones">Relaciones interpersonales: ¿Cómo calificarías la capacidad del empleado para construir relaciones efectivas con colegas y superiores?</label>
+      <div id="relaciones" class="calificacion">
+        <input type="radio" id="relaciones0" name="relaciones" value="0" required>
+        <label for="relaciones0">0</label>
+        <input type="radio" id="relaciones1" name="relaciones" value="1">
+        <label for="relaciones1">1</label>
+        <input type="radio" id="relaciones2" name="relaciones" value="2">
+        <label for="relaciones2">2</label>
+        <input type="radio" id="relaciones3" name="relaciones" value="3">
+        <label for="relaciones3">3</label>
+        <input type="radio" id="relaciones4" name="relaciones" value="4">
+        <label for="relaciones4">4</label>
+        <input type="radio" id="relaciones5" name="relaciones" value="5">
+        <label for="relaciones5">5</label>
+        <input type="radio" id="relaciones6" name="relaciones" value="6">
+        <label for="relaciones6">6</label>
+        <input type="radio" id="relaciones7" name="relaciones" value="7">
+        <label for="relaciones7">7</label>
+        <input type="radio" id="relaciones8" name="relaciones" value="8">
+        <label for="relaciones8">8</label>
+        <input type="radio" id="relaciones9" name="relaciones" value="9">
+        <label for="relaciones9">9</label>
+        <input type="radio" id="relaciones10" name="relaciones" value="10">
+        <label for="relaciones10">10</label>
+      </div>
+      
+
+      <!-- Repite lo anterior para las demás preguntas -->
+
+      <button type="button" onclick="calificarEmpleado()">Calificar</button>
+    </form>
+
+    <div id="mensajeCalificacion" style="display: none;">
+      <p id="mensajeTexto"></p>
+    </div>
+  </div>
+
+  <script src="../SCRIPTS/evdes.js"></script>
+</body>
+</html>

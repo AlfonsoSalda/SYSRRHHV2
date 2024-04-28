@@ -1,0 +1,29 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url('../IMG/listt.png');
+    background-color: #7e8df7;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .btn-primary {
+    background-color: #7e8df7;
+    border-color: #7e8df7;
+    position: center;
+  }
+  
+  .btn-primary:hover {
+    background-color: #5561c3;
+    border-color: #5561c3;
+  }
+  

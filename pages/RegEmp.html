@@ -1,0 +1,40 @@
+<!-- RegEmp.html -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../assets/CSS/reg.css">
+  <title>Recursos Humanos</title>
+</head>
+<body>
+  <div class="container">
+    <h1>Recursos Humanos</h1>
+
+    <div id="registroFormulario">
+      <h2>Registro de Empleado</h2>
+      <form id="formularioEmpleado">
+        <label for="nombre">Nombre Completo:</label>
+        <input type="text" id="nombre" name="nombre" required>
+
+        <label for="id">ID:</label>
+        <input type="text" id="id" name="id" required>
+
+        <label for="fechaNacimiento">Fecha de Nacimiento:</label>
+        <input type="date" id="fechaNacimiento" name="fechaNacimiento" required>
+
+        <label for="curp">CURP:</label>
+        <input type="text" id="curp" name="curp" required>
+
+        <button type="button" onclick="registrarEmpleado()">Registrar</button>
+      </form>
+    </div>
+
+    <div id="mensajeRegistro" style="display: none;">
+      <p id="mensajeTexto"></p>
+    </div>
+  </div>
+
+  <script src="../SCRIPTS/reg.js"></script>
+</body>
+</html>

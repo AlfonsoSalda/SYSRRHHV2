@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../assets/CSS/bus.css">
+  <title>Buscar Empleado</title>
+</head>
+<body>
+  <div class="container">
+    <h1>Buscar Empleado</h1>
+    <p>Nombre del Empleado:</p>
+    <input type="text" id="nombreEmpleado">
+    <button onclick="buscarEmpleado()">Buscar</button>
+
+    <div id="informacionEmpleado" style="display: none;">
+      <h2>Información del Empleado</h2>
+      <form id="formularioEmpleado">
+        <label for="nombreResultado">Nombre Completo:</label>
+        <input type="text" id="nombreResultado" name="nombreResultado" readonly>
+
+        <label for="idResultado">ID:</label>
+        <input type="text" id="idResultado" name="idResultado" readonly>
+
+        <label for="fechaNacimientoResultado">Fecha de Nacimiento:</label>
+        <input type="text" id="fechaNacimientoResultado" name="fechaNacimientoResultado" readonly>
+
+        <label for="curpResultado">CURP:</label>
+        <input type="text" id="curpResultado" name="curpResultado" readonly>
+      </form>
+    </div>
+  </div>
+  <script src="../SCRIPTS/bus.js"></script>
+</body>
+</html>

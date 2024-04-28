@@ -1,0 +1,49 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center; /* Centro todo el texto */
+  margin: 0;
+  padding: 0;
+  background-image: url('../IMG/serchh.png');
+  background-color: #7e8df7;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  align-items: center; /* Centra verticalmente el contenido */
+  justify-content: center; /* Centra horizontalmente el contenido */
+}
+
+.container {
+  width: 90%;
+  max-width: 600px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  color: #7e8df7;
+}
+
+input,
+button {
+  margin-top: 10px;
+  padding: 10px;
+  font-size: 16px;
+  width: 100%; /* Hace que los inputs y botones ocupen todo el ancho del contenedor */
+  box-sizing: border-box; /* Incluye el padding en el ancho total */
+}
+
+button {
+  cursor: pointer;
+  background-color: #7e8df7;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #5561c3;
+}

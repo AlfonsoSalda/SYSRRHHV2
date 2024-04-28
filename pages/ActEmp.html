@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../assets/CSS/act.css">
+  <title>Recursos Humanos - Actualizar Empleado</title>
+</head>
+<body>
+  <div class="container">
+    <h1>Recursos Humanos - Actualizar Empleado</h1>
+
+    <div id="buscarFormulario">
+      <h2>Buscar Empleado por ID</h2>
+      <form id="formularioBuscar">
+        <label for="id">ID del Empleado:</label>
+        <input type="text" id="id" name="id" required>
+
+        <button type="button" onclick="buscarEmpleado()">Buscar</button>
+      </form>
+    </div>
+
+    <div id="infoEmpleado" style="display: none;">
+      <h2>Información del Empleado</h2>
+      <div id="infoCompleta"></div>
+
+      <h2>Actualizar Información</h2>
+      <form id="formularioActualizar">
+        <label for="nombre">Nombre Completo:</label>
+        <input type="text" id="nombre" name="nombre" required>
+
+        <label for="fechaNacimiento">Fecha de Nacimiento:</label>
+        <input type="date" id="fechaNacimiento" name="fechaNacimiento" required>
+
+        <label for="curp">CURP:</label>
+        <input type="text" id="curp" name="curp" required>
+
+        <button type="button" onclick="actualizarInformacion()">Actualizar Información</button>
+      </form>
+    </div>
+
+    <div id="mensajeActualizar" style="display: none;">
+      <p id="mensajeTexto"></p>
+    </div>
+  </div>
+
+  <script src="../SCRIPTS/act.js"></script>
+</body>
+</html>
