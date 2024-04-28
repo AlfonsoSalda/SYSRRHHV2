@@ -37,7 +37,7 @@ function verificarYCrearAdmin() {
 
                 // Notificar al usuario y redirigir a index.html
                 alert("Administrador creado exitosamente.");
-                window.location.href = "../index.html";
+                window.location.href = "../SYSRRHHV2/index.html";
             } else {
                 alert("El usuario ya existe. Por favor, elige otro ID de trabajador.");
             }
